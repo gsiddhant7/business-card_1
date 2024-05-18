@@ -1,7 +1,6 @@
 body {
     margin: 20px;
-    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHNlaDNvdWQzcGY0b2RtMzN0Njlram1wMm9xMDNkM3B0dHk0OHl1aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l396BoOTIFem9xqQU/giphy.gif");
-    background-size: cover;
+    background-color:  #e1efe6;
 }
 
 .card {
@@ -10,9 +9,7 @@ body {
     padding: 10px;
     justify-content: space-around;
     width: 380px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
+    margin: 0 auto;
     background-color: #aeb7b3;
     border-bottom: 5px solid #160c28;
 
