@@ -72,9 +72,10 @@ body {
 }
 #img{
     background-image: url("image/avatar.jpeg");
-    width: 500px;
-    height: 600px;
+    width: 300px;
+    height: 400px;
     margin: 0 auto;
+    background-size: cover;
 }
 #img:hover{
     background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGNia3ljdDFrajlqYnVmOWI2aDFqOGJ5eTVlOTR3MGZ4OWJmNTZ3ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gHhH7T2hDcGe4/giphy.gif");
