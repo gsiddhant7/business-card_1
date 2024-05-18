@@ -1,24 +1,12 @@
-function play(){
-    // Create anchor element.
-    var a = document.createElement('a'); 
-              
-    // Create the text node for anchor element.
-    var link = document.createTextNode("Commo baby touch me touch me touch me!!");
-    
-    // Append the text node to anchor element.
-    a.appendChild(link); 
-    
-    // Set the title.
-    a.title = "This is Link"; 
-    
-    // Set the href property.
-    a.href = "https://youtu.be/ogFn6vmDs3M?si=ea3-ZvXpHZ_Iwwz5&t=19"; 
-    
-    // Set the target to open in new tab.
-    a.target = "_blank";
-    
-    a.style.color = '#F8F4E1';
-
-    // Append the anchor element to the body.
-    document.body.appendChild(a); 
+function play() {
+    var url = "https://www.facebook.com/profile.php?id=100020637843010";
+    window.open(url, "_blank");
 }
+
+
+
+function play_1() {
+        var url = "https://www.instagram.com/sijanpandit/?fbclid=IwZXh0bgNhZW0CMTAAAR1Be8jZm0tqjzRbQnNDzEh2eP5S3xzDIox0yHVHxnEa5KTWRSQaNv9cCog_aem_AU9lvNytDfF008EWg0wtLQzLhJ9fNtZ4GNH7iWyHy6zzsQTp5Y7QILd-WfbYB41DljPBNA2t7CiluAFZ03kzFBtc";
+        window.open(url, "_blank");
+    }
+
