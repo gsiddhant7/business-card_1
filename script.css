@@ -1,6 +1,8 @@
 body{
     margin: 20px;
     background-color: #FFE6E6;
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW1jaDB6ZTB1ODN3N2s5dHB3c3djcXIzZmI0ZmZyYWx2MDZtMHN3NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OsazxrOHCXQBi/giphy.gif://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGk4aG4zNWZrbDFxN2h5M29ubXByNmtycG13YTNnNmI4OWJ6MnVpcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7buijTqhjxjbEqjK/giphy.gif);
+    background-size: cover;
 }
 .card{
     display: flex;
@@ -9,8 +11,8 @@ body{
     justify-content: space-around;
     width: 400px;
     margin: 0 auto;
-    background-color: #74512D;
-    border-bottom: 5px solid #AF8F6F;
+    background-color: #AF8F6F;
+    border-bottom: 5px solid #74512D;
 
 }
 .avatar{
@@ -27,4 +29,8 @@ body{
 .btn{
     color: brown;
     cursor: pointer;
+}
+.link{
+    color: brown;
+    text-decoration: none;
 }

@@ -17,6 +17,8 @@ function play(){
     // Set the target to open in new tab.
     a.target = "_blank";
     
+    a.style.color = '#F8F4E1';
+
     // Append the anchor element to the body.
     document.body.appendChild(a); 
 }
