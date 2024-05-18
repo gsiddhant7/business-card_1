@@ -89,3 +89,6 @@ body {
 #img-3:hover{
     background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXBmMmVmdXkyMnR6dXU1N3J3bGlwYmg2ajJ4a3ZtZjBlanJtYnFtZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SUW1UbNRibbkRciIEI/giphy.gif");
 }
+.midd{
+    text-shadow: 0px 0px 4px black;
+}
