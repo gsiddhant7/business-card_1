@@ -70,8 +70,8 @@ body {
     text-align: center;
     margin-top: 100px;
 }
-#img{
-    background-image: url("image/avatar.jpeg");
+.gift{
+    background-image: url("https://i.pinimg.com/474x/a2/5b/97/a25b97221dc8780f82123c4cd186de77.jpg");
     width: 300px;
     height: 400px;
     margin: 0 auto;
@@ -79,4 +79,13 @@ body {
 }
 #img:hover{
     background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGNia3ljdDFrajlqYnVmOWI2aDFqOGJ5eTVlOTR3MGZ4OWJmNTZ3ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gHhH7T2hDcGe4/giphy.gif");
+}
+#img-1:hover{
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa29yMmhjMGpmNnM4ZXppNG15ZTEwNDVub2RyMnFmdDZwMDcwMHhkOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/APVsuygKOLoUE/giphy.gif");
+}
+#img-2:hover{
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWw3ZDZ5bHZidWxxdjhwY28zbWQxYWs1MzhlbnBlb2IzZmw5MTN1ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eTv2whEv6K7yo/giphy.gif");
+}
+#img-3:hover{
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXBmMmVmdXkyMnR6dXU1N3J3bGlwYmg2ajJ4a3ZtZjBlanJtYnFtZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SUW1UbNRibbkRciIEI/giphy.gif");
 }
