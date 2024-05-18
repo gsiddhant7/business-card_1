@@ -1,11 +1,13 @@
 body {
     margin: 20px;
     background-color:  #e1efe6;
+    background: linear-gradient(#e1efe6,#54077D);
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 .card {
     display: flex;
-
     padding: 10px;
     justify-content: space-around;
     width: 380px;
@@ -61,4 +63,19 @@ body {
     justify-content: space-around; /* Center the buttons */
     gap: 15px; /* Add space between buttons */
     margin-top: 0px; /* Add some margin to the top */
+}
+.mid{
+    color: #e1efe6;
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    margin-top: 100px;
+}
+#img{
+    background-image: url("image/avatar.jpeg");
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+}
+#img:hover{
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGNia3ljdDFrajlqYnVmOWI2aDFqOGJ5eTVlOTR3MGZ4OWJmNTZ3ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gHhH7T2hDcGe4/giphy.gif");
 }
