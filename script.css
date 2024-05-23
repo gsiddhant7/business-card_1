@@ -1,23 +1,75 @@
-body {
-    margin: 20px;
-    background-color:  #e1efe6;
-    background: linear-gradient(#e1efe6,#54077D);
-    background-size:cover;
-    background-attachment: fixed;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Quicksand:wght@300;500&display=swap");
 
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-family: "Quicksand", sans-serif;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+.header {
+    width: 100%;
+    height: 17vh;
+    text-decoration: none;
+  
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+   margin: 10px;
+}
+.nav-bars {
+    display: flex;
+    justify-content: flex-start;
+   font-size: 1.5rem;
+   gap: 2rem;
+}
+.nav-bars li {
+   list-style: none;
+}
+.nav-bars a {
+    text-decoration: none;
+    color: black;
+}
+.nav-bars a:hover {
+    color: #761B88;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+.homepage {
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+.home-text {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin: auto 0;
+}
 .card {
     display: flex;
     padding: 10px;
     justify-content: space-around;
-    width: 380px;
+    width: 100%;
     margin: 0 auto;
     background-color: #aeb7b3;
     border-bottom: 5px solid #160c28;
-
+    margin-top: 100px;
 
 }
-
 .avatar {
     width: 140px;
 }
@@ -34,14 +86,13 @@ body {
 }
 
 .btn {
-    
+
     color: #aeb7b3;
     cursor: pointer;
     border: none;
     background-color: transparent;
     border-radius: 4px;
     padding: 0; /* Remove padding for consistency */
-
     
 }
 .link{
@@ -50,45 +101,17 @@ body {
     cursor: pointer;
    
 }
-.icon_{
+.icon_ {
     background-color: transparent;
     border: none;
-    width: 50px;
+    width: 30px;
     padding: 0;
-    display: block;
-    justify-content: space-around;
+    margin: 20px;
+    
 }
-.buttons {
-     /* Use flexbox for buttons container */
-    justify-content: space-around; /* Center the buttons */
-    gap: 15px; /* Add space between buttons */
-    margin-top: 0px; /* Add some margin to the top */
-}
-.mid{
-    color: #e1efe6;
-    font-family: "Happy Monkey", system-ui;
+.footer {
     text-align: center;
-    margin-top: 100px;
-}
-.gift{
-    background-image: url("https://i.pinimg.com/474x/a2/5b/97/a25b97221dc8780f82123c4cd186de77.jpg");
-    width: 300px;
-    height: 400px;
-    margin: 0 auto;
-    background-size: cover;
-}
-#img:hover{
-    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGNia3ljdDFrajlqYnVmOWI2aDFqOGJ5eTVlOTR3MGZ4OWJmNTZ3ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gHhH7T2hDcGe4/giphy.gif");
-}
-#img-1:hover{
-    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa29yMmhjMGpmNnM4ZXppNG15ZTEwNDVub2RyMnFmdDZwMDcwMHhkOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/APVsuygKOLoUE/giphy.gif");
-}
-#img-2:hover{
-    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWw3ZDZ5bHZidWxxdjhwY28zbWQxYWs1MzhlbnBlb2IzZmw5MTN1ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eTv2whEv6K7yo/giphy.gif");
-}
-#img-3:hover{
-    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXBmMmVmdXkyMnR6dXU1N3J3bGlwYmg2ajJ4a3ZtZjBlanJtYnFtZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SUW1UbNRibbkRciIEI/giphy.gif");
-}
-.midd{
-    text-shadow: 0px 0px 4px black;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
