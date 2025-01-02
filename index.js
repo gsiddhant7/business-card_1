@@ -10,3 +10,10 @@ function play_1() {
         window.open(url, "_blank");
     }
 
+document.addEventListener('copy',(event)=>{
+    const cutitle = document.title;
+    event.clipboardData.setData("text/plain","MACHIKNEY KASLAI SODHERA COPY GARIS?");
+    event.preventDefault();
+})
+
+
